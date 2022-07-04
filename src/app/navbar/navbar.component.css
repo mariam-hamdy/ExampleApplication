@@ -1,0 +1,32 @@
+ul {
+    display: flex;
+    
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+   padding: 1.3rem;
+}
+a:hover {
+    color: #032b26;
+    background-color: hsl(233, 11%, 84%);
+    width: 2rem;
+}
+a:active {
+    color: #032b26;
+}
+.navbar {
+    margin-bottom: 1rem;
+    padding: .3rem;
+    background-color: hsl(235, 19%, 35%);
+}
+
+li {
+    margin: 1rem;
+}
+a:focus{
+    background-color: hsl(233, 11%, 84%);
+}
